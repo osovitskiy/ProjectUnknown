@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Reflection;
 using Newtonsoft.Json;
 
-namespace ProjectUnknown.AspNetCore.Utils
+namespace ProjectUnknown.AspNetCore.Extensions.Serialization
 {
-    public abstract class NullableTypeConverter : JsonConverter
+    public abstract class NullableConverter : JsonConverter
     {
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {

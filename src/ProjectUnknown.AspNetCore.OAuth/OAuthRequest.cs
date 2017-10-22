@@ -4,16 +4,16 @@ namespace ProjectUnknown.AspNetCore.OAuth
 {
     public class OAuthRequest
     {
-        private readonly IFormCollection form;
+        private readonly IFormCollection _form;
 
         public OAuthRequest(IFormCollection form)
         {
-            this.form = form;
+            _form = form;
         }
 
         public virtual string GetParam(string name)
         {
-            if (form.TryGetValue(name, out var value))
+            if (_form.TryGetValue(name, out var value))
             {
                 return value;
             }

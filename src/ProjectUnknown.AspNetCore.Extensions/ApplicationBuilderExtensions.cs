@@ -1,12 +1,14 @@
 ﻿using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
+using ProjectUnknown.Common;
 
-namespace ProjectUnknown.AspNetCore.Utils.Extensions
+namespace ProjectUnknown.AspNetCore.Extensions
 {
     public static class ApplicationBuilderExtensions
     {
-        public static IApplicationBuilder UseWhen(this IApplicationBuilder app, Func<HttpContext, bool> predicate, Action<IApplicationBuilder> thenConfiguration, Action<IApplicationBuilder> elseConfiguration)
+        public static IApplicationBuilder UseWhen(this IApplicationBuilder app, Func<HttpContext, bool> predicate, 
+            Action<IApplicationBuilder> thenConfiguration, Action<IApplicationBuilder> elseConfiguration)
         {
             Ensure.IsNotNull(app, nameof(app));
             Ensure.IsNotNull(predicate, nameof(predicate));

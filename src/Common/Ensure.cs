@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-namespace ProjectUnknown.AspNetCore.Utils
+// ReSharper disable once CheckNamespace
+namespace ProjectUnknown.Common
 {
-    public static class Ensure
+    internal static class Ensure
     {
         private const string ValueCannotBeNull = "Value cannot be null.";
         private const string ValueCannotBeEmpty = "Value cannot be empty.";

@@ -5,24 +5,29 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>3.0.0</Version>
     <Authors>Oleg Osovitskiy</Authors>
-    <Description>OAuth token middleware for ASP.NET Core.</Description>
+    <Description>Useless extensions for Asp.Net Core.</Description>
     <PackageLicenseUrl>https://github.com/osovitskiy/ProjectUnknown/blob/master/LICENCE.txt</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/osovitskiy/ProjectUnknown</PackageProjectUrl>
     <RepositoryUrl>https://github.com/osovitskiy/ProjectUnknown.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>projectunknown;aspnetcore;oauth</PackageTags>
+    <PackageTags>projectunknown;aspnetcore</PackageTags>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\ProjectUnknown.AspNetCore.Extensions\ProjectUnknown.AspNetCore.Extensions.csproj" />
+  <ItemGroup Condition="'$(TargetFramework)' != 'net6.0'">
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Include="..\Common\Ensure.cs" Link="Common\Ensure.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.0" />
   </ItemGroup>
 
 </Project>

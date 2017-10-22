@@ -2,7 +2,7 @@
 
 namespace ProjectUnknown.AspNetCore.OAuth
 {
-    public interface IOAuthHandler
+    public interface IOAuthTokenHandler
     {
         Task<OAuthResult> HandleTokenRequestAsync(OAuthTokenRequest request);
     }
