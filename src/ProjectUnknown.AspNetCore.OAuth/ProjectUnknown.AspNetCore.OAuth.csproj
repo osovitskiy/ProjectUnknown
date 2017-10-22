@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.3;net451</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.1.0</Version>
+    <Authors>Oleg Osovitskiy</Authors>
+    <Description>OAuth token middleware for ASP.NET Core.</Description>
+    <Copyright>Copyright (c) Oleg Osovitskiy</Copyright>
+    <PackageLicenseUrl>https://github.com/osovitskiy/ProjectUnknown/blob/master/LICENCE.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/osovitskiy/ProjectUnknown</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/osovitskiy/ProjectUnknown.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>projectunknown;aspnetcore;oauth</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectUnknown.AspNetCore.JsonObjectWriter\ProjectUnknown.AspNetCore.JsonObjectWriter.csproj" />
+  </ItemGroup>
+
+</Project>

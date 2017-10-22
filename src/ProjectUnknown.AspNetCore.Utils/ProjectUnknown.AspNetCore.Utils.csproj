@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.3;net451</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.1.0</Version>
+    <Authors>Oleg Osovitskiy</Authors>
+    <Description>Common functionality used by ProjectUnknown libraries.</Description>
+    <Copyright>Copyright (c) Oleg Osovitskiy</Copyright>
+    <PackageLicenseUrl>https://github.com/osovitskiy/ProjectUnknown/blob/master/LICENCE.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/osovitskiy/ProjectUnknown</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/osovitskiy/ProjectUnknown.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>projectunknown</PackageTags>
+    <Product>ProjectUnknown.AspNetCore.Utils</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="1.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+  </ItemGroup>
+
+</Project>
