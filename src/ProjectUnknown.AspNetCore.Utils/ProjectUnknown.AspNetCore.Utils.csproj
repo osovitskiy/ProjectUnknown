@@ -3,10 +3,8 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard1.3;net451</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>ProjectUnknown.AspNetCore.Utils</PackageId>
     <Version>1.1.0</Version>
     <Authors>Oleg Osovitskiy</Authors>
-    <Company />
     <Description>Common functionality used by ProjectUnknown libraries.</Description>
     <Copyright>Copyright (c) Oleg Osovitskiy</Copyright>
     <PackageLicenseUrl>https://github.com/osovitskiy/ProjectUnknown/blob/master/LICENCE.txt</PackageLicenseUrl>

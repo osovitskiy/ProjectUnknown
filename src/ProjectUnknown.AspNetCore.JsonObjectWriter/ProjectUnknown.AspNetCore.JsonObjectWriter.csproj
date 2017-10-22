@@ -5,7 +5,6 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>1.1.0</Version>
     <Authors>Oleg Osovitskiy</Authors>
-    <Company />
     <Description>IJsonObjectWriter abstraction for JSON response generation without using ASP.NET Core MVC.</Description>
     <Copyright>Copyright (c) Oleg Osovitskiy</Copyright>
     <PackageLicenseUrl>https://github.com/osovitskiy/ProjectUnknown/blob/master/LICENCE.txt</PackageLicenseUrl>
@@ -13,7 +12,6 @@
     <RepositoryUrl>https://github.com/osovitskiy/ProjectUnknown.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>projectunknown;aspnetcore;json</PackageTags>
-    <Copyright>Copyright (c) Oleg Osovitskiy</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
