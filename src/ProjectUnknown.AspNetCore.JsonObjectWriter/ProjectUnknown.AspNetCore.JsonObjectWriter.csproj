@@ -6,7 +6,7 @@
     <Version>1.1.0</Version>
     <Authors>Oleg Osovitskiy</Authors>
     <Company />
-    <Description />
+    <Description>IJsonObjectWriter abstraction for JSON response generation without using ASP.NET Core MVC.</Description>
     <Copyright>Copyright (c) Oleg Osovitskiy</Copyright>
     <PackageLicenseUrl>https://github.com/osovitskiy/ProjectUnknown/blob/master/LICENCE.txt</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/osovitskiy/ProjectUnknown</PackageProjectUrl>

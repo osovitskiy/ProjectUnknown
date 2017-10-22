@@ -7,7 +7,7 @@
     <Version>1.1.0</Version>
     <Authors>Oleg Osovitskiy</Authors>
     <Company />
-    <Description />
+    <Description>Common functionality used by ProjectUnknown libraries.</Description>
     <Copyright>Copyright (c) Oleg Osovitskiy</Copyright>
     <PackageLicenseUrl>https://github.com/osovitskiy/ProjectUnknown/blob/master/LICENCE.txt</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/osovitskiy/ProjectUnknown</PackageProjectUrl>

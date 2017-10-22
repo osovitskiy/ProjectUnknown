@@ -6,7 +6,7 @@
     <Version>1.1.0</Version>
     <Authors>Oleg Osovitskiy</Authors>
     <Company />
-    <Description />
+    <Description>OAuth token middleware for ASP.NET Core.</Description>
     <Copyright>Copyright (c) Oleg Osovitskiy</Copyright>
     <PackageLicenseUrl>https://github.com/osovitskiy/ProjectUnknown/blob/master/LICENCE.txt</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/osovitskiy/ProjectUnknown</PackageProjectUrl>
@@ -16,7 +16,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ProjectUnknown.AspNetCore.JsonWriter\ProjectUnknown.AspNetCore.JsonWriter.csproj" />
+    <ProjectReference Include="..\ProjectUnknown.AspNetCore.JsonObjectWriter\ProjectUnknown.AspNetCore.JsonObjectWriter.csproj" />
   </ItemGroup>
 
 </Project>
