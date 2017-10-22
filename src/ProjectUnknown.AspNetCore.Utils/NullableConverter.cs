@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 
 namespace ProjectUnknown.AspNetCore.Utils
 {
-    public abstract class NullableTypeConverter : JsonConverter
+    public abstract class NullableConverter : JsonConverter
     {
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
