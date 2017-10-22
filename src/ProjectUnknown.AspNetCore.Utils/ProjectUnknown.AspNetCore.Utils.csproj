@@ -1,13 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.3</TargetFramework>
+    <TargetFrameworks>netstandard1.3;net451</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>ProjectUnknown.AspNetCore.Utils</PackageId>
     <Version>1.1.0</Version>
     <Authors>Oleg Osovitskiy</Authors>
     <Company />
     <Description />
+    <Copyright>Copyright (c) Oleg Osovitskiy</Copyright>
+    <PackageLicenseUrl>https://github.com/osovitskiy/ProjectUnknown/blob/master/LICENCE.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/osovitskiy/ProjectUnknown</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/osovitskiy/ProjectUnknown.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>projectunknown</PackageTags>
+    <Product>ProjectUnknown.AspNetCore.Utils</Product>
   </PropertyGroup>
 
   <ItemGroup>
