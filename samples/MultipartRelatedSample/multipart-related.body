@@ -1,0 +1,15 @@
+--FOOBAR
+Content-ID: <root>
+Content-Type: application/json
+
+{
+	"Cid": "file",
+	"Name": "myfile.txt",
+	"Tags": ["aspnetcore", "multipart"]
+}
+--FOOBAR
+Content-ID: <file>
+Content-Type: text/plain
+
+Hello World!
+--FOOBAR--
