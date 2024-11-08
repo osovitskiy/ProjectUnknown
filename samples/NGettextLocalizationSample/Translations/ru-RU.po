@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-11-26 01:37+0000\n"
+"PO-Revision-Date: 2021-11-26 01:38+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: _:1;_n:1,2;_p:1c,1;_pn:1c,1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Controllers/HomeController.cs:21
+msgid "Some text from controller"
+msgstr "Немного текста из контроллер"
+
+#: obj/Release/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs:53
+msgid "Home Page"
+msgstr "Дом страница"
+
+#: obj/Release/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs:69
+msgid "Dogs"
+msgstr "Собаки"
+
+#: obj/Release/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs:77
+#: obj/Release/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs:85
+#: obj/Release/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs:93
+#: obj/Release/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs:101
+#: obj/Release/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs:109
+#, csharp-format
+msgid "{0} dog"
+msgid_plural "{0} dogs"
+msgstr[0] "{0} собака"
+msgstr[1] "{0} собаки"
+msgstr[2] "{0} собак"
+
+#: obj/Release/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs:117
+msgid "Cats"
+msgstr "Коты"
+
+#: obj/Release/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs:125
+#: obj/Release/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs:133
+#: obj/Release/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs:141
+#: obj/Release/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs:149
+#: obj/Release/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs:157
+#, csharp-format
+msgid "{0} cat"
+msgid_plural "{0} cats"
+msgstr[0] "{0} кот"
+msgstr[1] "{0} кота"
+msgstr[2] "{0} котов"

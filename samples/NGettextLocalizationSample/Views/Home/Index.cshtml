@@ -1,0 +1,28 @@
+@using Microsoft.Extensions.Localization
+@using ProjectUnknown.Localization.NGettext
+@model IndexViewModel
+@inject IStringLocalizer localizer
+@{
+    ViewData["Title"] = localizer.GetString("Home Page");
+}
+
+
+<div>
+    <p>@Model.Message</p>
+    <h2 class="display-4">@localizer.GetString("Dogs")</h2>
+    <ul>
+        <li>@localizer.GetPluralString("{0} dog", "{0} dogs", 1, 1)</li>
+        <li>@localizer.GetPluralString("{0} dog", "{0} dogs", 2, 2)</li>
+        <li>@localizer.GetPluralString("{0} dog", "{0} dogs", 3, 3)</li>
+        <li>@localizer.GetPluralString("{0} dog", "{0} dogs", 4, 4)</li>
+        <li>@localizer.GetPluralString("{0} dog", "{0} dogs", 5, 5)</li>
+    </ul>
+    <h2 class="display-4">@localizer.GetString("Cats")</h2>
+    <ul>
+        <li>@localizer.GetPluralString("{0} cat", "{0} cats", 1, 1)</li>
+        <li>@localizer.GetPluralString("{0} cat", "{0} cats", 2, 2)</li>
+        <li>@localizer.GetPluralString("{0} cat", "{0} cats", 3, 3)</li>
+        <li>@localizer.GetPluralString("{0} cat", "{0} cats", 4, 4)</li>
+        <li>@localizer.GetPluralString("{0} cat", "{0} cats", 5, 5)</li>
+    </ul>
+</div>

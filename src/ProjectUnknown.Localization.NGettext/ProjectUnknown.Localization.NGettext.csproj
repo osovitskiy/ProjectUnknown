@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>3.0.0</Version>
+    <Authors>Oleg Osovitskiy</Authors>
+    <Description>NGettext localization module for ASP.NET Core.</Description>
+    <PackageLicenseUrl>https://github.com/osovitskiy/ProjectUnknown/blob/master/LICENCE.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/osovitskiy/ProjectUnknown</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/osovitskiy/ProjectUnknown.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>projectunknown;aspnetcore;localization;ngettext;gettext</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Abstractions" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.0.0" />
+    <PackageReference Include="NGettext" Version="0.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Common\Ensure.cs" Link="Common\Ensure.cs" />
+  </ItemGroup>
+
+</Project>
