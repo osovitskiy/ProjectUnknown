@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>3.0.0</Version>
+    <Authors>Oleg Osovitskiy</Authors>
+    <Description>Basic Authentication support for Asp.Net Core.</Description>
+    <PackageLicenseUrl>https://github.com/osovitskiy/ProjectUnknown/blob/master/LICENCE.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/osovitskiy/ProjectUnknown</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/osovitskiy/ProjectUnknown.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>projectunknown;aspnetcore;authentication;basic</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' != 'net6.0'">
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Common\Ensure.cs" Link="Common\Ensure.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.0" />
+    <PackageReference Include="Isopoh.Cryptography.Argon2" Version="2.0.0" />
+    <PackageReference Include="ProjectUnknown.BaseEncoding" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
